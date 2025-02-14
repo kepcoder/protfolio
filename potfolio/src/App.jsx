@@ -71,7 +71,7 @@ const App = () => {
               <div ref={(elem)=> contentRef.current[3] = elem} className="videodiv rounded-2xl border-4 border-white h-[25rem] w-1/2 max-[900px]:w-full max-[500px]:h-[15rem] max-[400px]:h-[12rem]"></div>
          </div>
          <div className="page4 w-full p-3 h-[40rem] max-[900px]:h-1/2 bg-[#191919]">
-            <img ref={(elem)=> contentRef.current[4] = elem} className='rounded-2xl border-white w-full h-full object-contain flex items-start justify-start' src="../public/thumbnail.png" alt="" />
+            <img ref={(elem)=> contentRef.current[4] = elem} className='rounded-2xl border-white w-full h-full object-contain flex items-start justify-start' src="/thumbnail.png" alt="" />
          </div>
          <div id="page5" className="page5 w-full min-h-[40rem] p-3 flex flex-col gap-3 ">
             <h1 className='sticky bg-black p-1 top-20 z-[20] text-7xl text-left font-[font6] text-white'>Course Curriculum</h1>
