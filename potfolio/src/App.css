@@ -1,0 +1,257 @@
+*{
+    padding:0;margin:0;
+    box-sizing: border-box;
+}
+html,body{
+    width:100%;
+    height:100%;
+    background-color: black;
+}
+@font-face {
+    font-family: font1;
+    src: url(/Fonts/font1.woff);
+}
+@font-face {
+    font-family: font2;
+    src: url(/Fonts/font2.woff);
+}
+@font-face {
+    font-family: font3;
+    src: url(/Fonts/font3.woff);
+}
+@font-face {
+    font-family: font4;
+    src: url(/Fonts/font4.ttf);
+}
+@font-face {
+    font-family: font5;
+    src: url(/Fonts/font5.woff2);
+}
+@font-face {
+    font-family: font6;
+    src: url(/Fonts/KACHIKA.ttf);
+}
+
+
+@media( max-width:1550px){
+
+    .page2 h1{
+        font-size:5rem;
+    }
+}
+@media( max-width:1300px){
+
+    .page2 h1{
+        font-size:4rem;
+    }
+}
+@media( max-width:1080px){
+
+    .page2 h1{
+        font-size:3rem;
+    }
+}
+
+@media( max-width:1200px){
+
+    .page1 .image{
+    width:80vw;
+    }
+
+    .page5 .element h2{
+        font-size:2.8rem;
+    }
+    
+}
+
+@media( max-width:1100px){
+
+    .menu{
+         width:100%;
+    }
+    
+}
+@media( max-width:900px){
+
+    .page3{
+        flex-direction: column  ;
+    }
+    .page3 .textdiv .icon{
+        rotate:90deg;
+    }
+    .page3 .textdiv h2{
+      font-size:3rem;
+    }
+    .page5 .element{
+        flex-direction:column;
+    }
+    .page5 h1{
+        font-size:4rem;
+    }
+    .page6 h1{
+        font-size:3.5rem;
+    }
+    .page6 h2{
+        font-size:2.5rem;
+    }
+    .page6 .socialMedia p{
+        font-size:2.5rem;
+    }
+    .page6 h4{
+        font-size:2.5rem;
+    }
+    
+}
+@media( max-width:700px){
+
+.page1 .image{
+width:80vw;
+}
+.menu h4{
+    display:flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+}
+
+.page2{
+    gap:.5rem;
+}
+.page2 h1{
+    width:80%;
+}
+.page2 p{
+    width:80%;
+}
+.page3 .textdiv h2{
+    font-size:2.2rem;
+}
+.page5 h1{
+    font-size:3rem;
+}
+.page6 h1{
+    font-size:3rem;
+}
+.page6 h2{
+    font-size:2rem;
+}
+.page6 .socialMedia p{
+    font-size:2rem;
+}
+.page6 h4{
+    font-size:2rem;
+}
+}
+
+@media(max-width:600px){
+    .videodiv2{
+        flex-direction: column;
+        align-items: center;
+    }
+    .page6 h1{
+        font-size:2.5rem;
+    }
+    .page6 h2{
+        font-size:2rem;
+        padding:1rem 2rem;
+    }
+    .page6 .socialMedia p{
+        font-size:1.5rem;
+    }
+    .page6 h4{
+        font-size:1.5rem;
+    }
+    
+
+}
+@media(max-width:500px){
+
+
+.page1 .image{
+    width:100%;
+}
+.page2{
+    gap:.5rem;
+}
+.page2 h1{
+    width:100%;
+}
+.page2 p{
+    width:100%;
+}
+.page3 .textdiv {
+    gap:2rem;
+}
+.page3 .textdiv p{
+    width:100%;
+    font-size:1.5rem;
+    line-height:1.2;
+}
+.page3 .textdiv h2{
+   flex-direction: column;
+}
+.page5 h1{
+    font-size:2.5rem;
+}
+
+.page5 .element h2{
+    font-size:2rem;
+}
+.page5 .element p{
+    font-size:1.8rem;
+}
+.page6 .youtube{
+    padding:.5rem;
+}
+.page6 .socialMedia p{
+    text-align:center;
+    font-size:1.1rem;
+}
+.footer p{
+    font-size:1rem;
+    line-height:1;
+}
+
+}
+
+@media(max-width:450px){
+    
+    .page3 .textdiv {
+        gap:1.5rem;
+    }
+    .page3 .textdiv p{
+        font-size:1.2rem;
+    }
+    .page3 .textdiv h2{
+        font-size:1.7rem;
+    }
+    .page5 .element p{
+        font-size:1.5rem;
+        line-height:3rem;
+    }
+ 
+}
+
+
+@media(max-width:400px){
+
+.page2 h1{
+    padding:0;
+    font-size:2.5rem;
+}
+    
+.page3 .textdiv {
+    gap:1.5rem;
+}
+.page3 .textdiv p{
+    font-size:1.2rem;
+}
+.page3 .textdiv h2{
+    font-size:1.2rem;
+}
+.page5 .element p{
+    font-size:1rem;
+    line-height:2rem;
+}
+    
+}
+
