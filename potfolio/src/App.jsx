@@ -71,7 +71,7 @@ const App = () => {
               <div ref={(elem)=> contentRef.current[3] = elem} className="videodiv rounded-2xl border-4 border-white h-[25rem] w-1/2 max-[900px]:w-full max-[500px]:h-[15rem] max-[400px]:h-[12rem]"></div>
          </div>
          <div className="page4 w-full p-3 h-[40rem] max-[900px]:h-1/2 bg-[#191919]">
-            <img ref={(elem)=> contentRef.current[4] = elem} className='rounded-2xl border-white w-full h-full object-contain flex items-start justify-start' src="/thumbnail.png" alt="image" />
+            <img ref={(elem)=> contentRef.current[4] = elem} className='rounded-2xl border-white w-full h-full object-contain flex items-start justify-start' src="/Thumbnail.png" alt="image" />
          </div>
          <div id="page5" className="page5 w-full min-h-[40rem] p-3 flex flex-col gap-3 ">
             <h1 className='sticky bg-black p-1 top-20 z-[20] text-7xl text-left font-[font6] text-white'>Course Curriculum</h1>
@@ -174,13 +174,13 @@ const App = () => {
                       {isPlaying !== 0 &&(
                         <FaPlayCircle className=' text-white absolute top-36 right-16 text-4xl text-center'/>
                       )}
-                      <video ref={(el)=>videoRef.current[0] = el} className='-z-1 w-full h-full rounded-xl object-cover' src="../public/videos/video1.mp4"></video>
+                      <video ref={(el)=>videoRef.current[0] = el} className='-z-1 w-full h-full rounded-xl object-cover' src="Videos/Video1.mp4"></video>
                    </div>
                    <div onClick={()=>handlePlay(1)} className="relative video2 border-4 border-white rounded-2xl w-1/3 max-[600px]:w-1/2 h-full">
                       {isPlaying !== 1 &&(
                         <FaPlayCircle className=' text-white absolute top-36 right-16 text-4xl text-center'/>
                       )}
-                      <video ref={(el)=>videoRef.current[1] = el} className='-z-1 w-full h-full rounded-xl object-cover' src="../public/videos/video3.mp4"></video>
+                      <video ref={(el)=>videoRef.current[1] = el} className='-z-1 w-full h-full rounded-xl object-cover' src="/Videos/Video3.mp4"></video>
                    </div>
                </div>
                <div ref={(elem)=> contentRef.current[10] = elem} className="buynow p-3w-full flex justify-center items-center rounded-2xl">
